@@ -1,0 +1,54 @@
+.fontfam_inter {
+  font-family: Inter;
+}
+.font_bold {
+  font-weight: bold;
+}
+.bg_color_blue {
+  background-color: #319cea;
+}
+.bg_color_green {
+  background-color: #3ed319;
+}
+.bg_color_purple {
+  background-color: #ba31ea;
+}
+.bg_color_white {
+  background-color: #ffffff;
+}
+.border_blue {
+  border: solid 5px #1fa7f4;
+}
+.border_green {
+  border: solid 5px #3ed319;
+}
+.border_purple {
+  border: solid 5px #ba31ea;
+}
+.line_hight_1-25 {
+  line-height: 1.25;
+}
+.font_size-20 {
+  font-size: 20px;
+}
+.letter_space-06 {
+  letter-spacing: 0.6px;
+}
+.display_flex {
+  display: flex;
+}
+.flex_justify-center {
+  justify-content: center;
+}
+.flex_justify-evenly {
+  justify-content: space-evenly;
+}
+.flex_wrap {
+  flex-wrap: wrap;
+}
+.border_box {
+  box-sizing: border-box;
+}
+.margin_auto {
+  margin: auto;
+}
