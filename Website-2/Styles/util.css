@@ -1,0 +1,22 @@
+.font_PlayfairDispaly {
+  font-family: PlayfairDisplay;
+}
+.required:after {
+  content: "*";
+  color: red;
+}
+.bg_white {
+  background-color: white;
+}
+.marg_top_50 {
+  margin-top: 50px;
+}
+.marg_bot_20 {
+  margin-bottom: 20px;
+}
+.marg_left_15 {
+  margin-left: 15px;
+}
+.marg_top_16 {
+  margin-top: 16px;
+}
