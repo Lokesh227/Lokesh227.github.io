@@ -2,75 +2,84 @@
 body {
   background-color: #f6f6f6;
 }
-.text_boxes {
+.text_boxes{
   width: 344px;
   height: 35px;
   border-radius: 5px;
+  opacity: 0.5;
   margin-top: 10px;
-}
-.label_styles {
-  font-family: Inter;
-  font-size: 15px;
-  letter-spacing: 0.6px;
-}
-.topic_label_style {
-  font-family: PlayfairDisplay;
-  font-size: 20px;
-  letter-spacing: 0.6px;
+  border: solid 1px #000000;
 }
 .box_details {
   border-radius: 10px;
   margin-left: 2%;
   margin-right: 2%;
+  padding: 2em;
 }
-.personal_details,
-.other_details {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 1380px;
+label:hover {
+  cursor: pointer;
 }
-.personal_details > * {
-  flex: 450px;
-  margin-top: 15px;
+::placeholder {
+  padding-left: 10px;
+}
+input:focus{
+  opacity: 1;
+  transition: 0.7s;
+}
+.pers_col {
+  flex: 0 0 35%;
+}
+.pers_col input {
+  display: block;
+  margin-bottom: 10px;
+}
+.acad_det label {
+  position: absolute;
+  margin-top: 22px;
+}
+.acad_det input {
+  margin-left: 151px;
+}
+.other_col{
+  width: 50%;
+}
+.other_col label {
+  flex: 0.5;
+  margin-top: 1.3em;
   margin-left: 15px;
+}
+@media all and (max-width: 1350px) and (min-width: 280px){
+  .other_col label {
+    flex: 20%;
+  }
 }
 
-.other_details > * {
-  flex: 450px;
-  margin-top: 15px;
-  margin-left: 15px;
-}
-.academic_details input {
-  margin-left: 151px;
-}
-.academic_details label {
-  position: absolute;
-  margin-top: 22px;
-}
-.other_details label {
-  position: absolute;
-  margin-top: 22px;
-}
-.other_details input {
-  margin-left: 151px;
-}
+/*Buttons*/
 button {
   width: 216px;
   height: 50px;
+  margin: 0 15px;
   border-radius: 5px;
   background-color: #319cea;
+  border: none;
 }
 .btn_text {
   font-family: Inter;
   font-size: 14px;
   font-weight: 600;
-  line-height: 1.43;
   letter-spacing: 0.6px;
   color: #ffffff;
 }
 .buttons {
   display: flex;
   justify-content: flex-end;
-  margin-top: 20px;
-  margin-right: 2%;
+  margin-top: 10px;
+  margin-right: 1.5%;
+}
+button:hover {
+  background-color: #f0f4f7;
+  color: #319cea;
+  border: 2px solid #319cea;
+  transition: 0.5s;
+  cursor: pointer;
 }

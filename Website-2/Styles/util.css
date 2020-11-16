@@ -1,9 +1,20 @@
-.font_PlayfairDispaly {
-  font-family: PlayfairDisplay;
+.flex {
+  display: flex;
+  max-width: 1300px;
 }
 .required:after {
   content: "*";
   color: red;
+}
+.label_styles {
+  font-family: Inter;
+  font-size: 15px;
+  letter-spacing: 0.6px;
+}
+.topic_label_style {
+  font-family: PlayfairDisplay;
+  font-size: 20px;
+  letter-spacing: 0.6px;
 }
 .bg_white {
   background-color: white;

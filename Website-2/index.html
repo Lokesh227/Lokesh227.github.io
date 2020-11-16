@@ -4,56 +4,64 @@
     <title>Forms</title>
     <link rel="stylesheet" href="./Styles/main.css" />
   </head>
+
   <body>
     <form>
-      <div class="box_details bg_white marg_top_50 marg_bot_20 pers_box">
-        <div class="topic_label_style marg_left_15"><br />Personal Details</div>
-        <div class="personal_details marg_bot_20">
-          <div>
-            <label class="label_styles required" for="f_name">First Name</label
-            ><br />
-            <input
-              class="text_boxes"
-              type="text"
-              id="f_name"
-              placeholder="Eg:Jhon"
-            />
+      <div class="box_details bg_white marg_top_50 marg_bot_20">
+        <div class="topic_label_style marg_left_15">Personal Details</div>
+        <div class="flex marg_bot_20 marg_top_16">
+          <div class="pers_col marg_left_15">
+            <div>
+              <label class="label_styles required" for="f_name"
+                >First Name</label
+              >
+              <input
+                class="text_boxes"
+                type="text"
+                id="f_name"
+                placeholder="Eg:Jhon"
+              />
+            </div>
+            <div>
+              <label class="label_styles required" for="l_name"
+                >Last Name</label
+              >
+              <input
+                class="text_boxes"
+                type="text"
+                id="l_name"
+                placeholder="Eg:Cena"
+              />
+            </div>
           </div>
-          <div>
-            <label class="label_styles required" for="l_name">Last Name</label
-            ><br />
-            <input
-              class="text_boxes"
-              type="text"
-              id="l_name"
-              placeholder="Eg:Cena"
-            />
-          </div>
-          <div>
-            <label class="label_styles required" for="email">Email</label><br />
-            <input
-              class="text_boxes"
-              type="email"
-              id="email"
-              placeholder="Eg:abc@xyz.com"
-            />
-          </div>
-          <div>
-            <label class="label_styles required" for="mobile">Mobile No</label
-            ><br />
-            <input
-              class="text_boxes"
-              type="number"
-              id="mobile"
-              placeholder="Please Enter your mobile number"
-            />
+          <div class="pers_col marg_left_15">
+            <div>
+              <label class="label_styles required" for="email">Email</label>
+              <input
+                class="text_boxes"
+                type="email"
+                id="email"
+                placeholder="Eg:abc@xyz.com"
+              />
+            </div>
+            <div>
+              <label class="label_styles required" for="mobile"
+                >Mobile No</label
+              >
+              <input
+                class="text_boxes"
+                type="text"
+                id="mobile"
+                placeholder="Please Enter your mobile number"
+              />
+            </div>
           </div>
         </div>
-        <br />
       </div>
-      <div class="bg_white box_details marg_bot_20 acad_box">
+
+      <div class="bg_white box_details marg_bot_20">
         <div class="topic_label_style marg_left_15"><br />Acadmic Details</div>
-        <div class="academic_details marg_left_15 marg_top_16">
+        <div class="acad_det marg_left_15">
           <div>
             <label class="label_styles required" for="clg_name"
               >College Name</label
@@ -95,14 +103,12 @@
             />
           </div>
         </div>
-        <br />
-        <br />
       </div>
 
-      <div class="bg_white box_details other_box">
+      <div class="bg_white box_details">
         <div class="topic_label_style marg_left_15"><br />Other Details</div>
-        <div class="other_details">
-          <div>
+        <div class="flex">
+          <div class="flex other_col">
             <label class="label_styles required" for="intrest"
               >Area of Intrest</label
             >
@@ -113,16 +119,18 @@
               placeholder="Enter your Intrest"
             />
           </div>
-          <div>
+          <div class="flex other_col">
             <label class="label_styles" for="hobby">Hobby</label>
             <input
               class="input text_boxes"
               type="text"
               id="hobby"
-              placeholder="Enter your Department"
+              placeholder="Enter your Hobbies"
             />
           </div>
-          <div>
+        </div>
+        <div class="flex ">
+          <div class="flex other_col">
             <label class="label_styles" for="grd_year1">Graduating Year</label>
             <input
               class="input text_boxes"
@@ -131,7 +139,7 @@
               placeholder="Enter your year of graduating"
             />
           </div>
-          <div>
+          <div class="flex other_col">
             <label class="label_styles" for="grd_year2">Graduating Year</label>
             <input
               class="input text_boxes"
@@ -141,9 +149,9 @@
             />
           </div>
         </div>
-        <br />
-        <br />
+        </div>
       </div>
+
       <div class="buttons">
         <div>
           <button class="btn_text" type="button" value="Save">Edit</button>
