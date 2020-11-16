@@ -44,14 +44,12 @@ input:focus{
   width: 50%;
 }
 .other_col label {
-  flex: 0.5;
+  flex: 1;
   margin-top: 1.3em;
   margin-left: 15px;
 }
-@media all and (max-width: 1350px) and (min-width: 280px){
-  .other_col label {
-    flex: 20%;
-  }
+.other_col input {
+  flex: 2;
 }
 
 /*Buttons*/
