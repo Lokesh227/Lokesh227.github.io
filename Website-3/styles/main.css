@@ -1,0 +1,319 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #edf2f9;
+  font-family: sans-serif;
+  letter-spacing: 0.6px;
+}
+.menu-bar {
+  opacity: 0.5;
+}
+.imags {
+  position: absolute;
+  margin-top: 21px;
+}
+.spt-nk_logo {
+  width: 202px;
+  height: 26px;
+}
+.search-box {
+  position: relative;
+  top: 10px;
+  margin-left: 310px;
+}
+.search-box input[type="text"] {
+  width: 204px;
+  height: 33px;
+  border: none;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+.search-box input:focus {
+  outline: none;
+}
+.profile button img {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  right: 2%;
+  top: 15px;
+  border-radius: 50%;
+}
+.profile-menu {
+  position: absolute;
+  display: none;
+  right: 5%;
+  top: 65px;
+  flex-direction: column;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  width: 158px;
+  height: 122px;
+  padding: 26px 0 15px 15px;
+  background-color: #ffffff;
+}
+.hr-line {
+  width: 173px;
+  border-bottom: 1px solid black;
+  opacity: 0.5;
+  margin-left: -15px;
+  margin-top: 9px;
+  margin-bottom: 10px;
+}
+.profile-menu a {
+  padding-bottom: 5px;
+  color: black;
+  opacity: 0.7;
+  font-family: PlayfairDisplay;
+  font-size: 13px;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+.nav-bar a {
+  color: black;
+  padding: 5px;
+  opacity: 0.5;
+  font-size: 14px;
+}
+.nav-bar > li > a:hover {
+  opacity: 1;
+}
+.nav-bar div {
+  font-weight: 900;
+  font-size: 20px;
+  margin-top: -4px;
+  opacity: 0.5;
+}
+ul {
+  list-style-type: none;
+}
+.nav-bar {
+  top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.menu img {
+  height: 17px;
+  width: 27px;
+  opacity: 0.8;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+.menu > div {
+  padding-left: 10px;
+}
+.menu > * {
+  padding-bottom: 10px;
+}
+.menu {
+  display: flex;
+}
+.home-drop a {
+  color: #5e6e82;
+  font-size: 14px;
+  padding: 3px;
+  text-decoration: none;
+}
+.home-drop a:hover {
+  color: #319cea;
+}
+.home-drop {
+  flex-direction: column;
+  display: none;
+}
+.show {
+  display: flex;
+}
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: inherit;
+}
+.fas {
+  padding-left: 10px;
+}
+.menu div {
+  margin-top: 2px;
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 600;
+  color: #5e6e82;
+}
+.line {
+  border-left: 1.5px solid black;
+  height: 703px;
+  position: absolute;
+  margin-left: 9em;
+  opacity: 0.3;
+}
+.menu_container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+.rectangle,
+.sqr {
+  width: 465px;
+  height: 107px;
+  padding: 15px 20px 28px 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+}
+.rectangle h3,
+h4 {
+  color: #f59729;
+  margin-top: -3px;
+}
+.rectangle p {
+  font-size: 14px;
+  line-height: 1.67;
+}
+.sqr {
+  height: 232px;
+  margin-bottom: 2em;
+}
+.sqr h5,
+.rectangle h5 {
+  margin-top: -5px;
+}
+.user img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 8px;
+  margin-top: 10px;
+}
+.user {
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: -10px;
+}
+.act_user-container {
+  margin-top: -20px;
+}
+.container {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 150px;
+}
+.perc-box {
+  width: 66px;
+  height: 24px;
+  border-radius: 10px;
+  opacity: 0.5;
+}
+.bgrd-green {
+  background-color: #3ed319;
+}
+.bgrd-blue {
+  background-color: #1fa7f4;
+}
+.opc-0-7 {
+  opacity: 0.7;
+}
+.opc-0-5 {
+  opacity: 0.5;
+}
+.mark-per {
+  padding-left: 40px;
+}
+.ellipse {
+  height: 15px;
+  width: 15px;
+  margin-right: 12px;
+  border-radius: 50%;
+  background-color: #319cea;
+}
+.elips-con {
+  display: flex;
+  font-size: 14px;
+  padding: 5px;
+}
+@media all and (max-width: 588px) {
+  .search-box {
+    margin-left: 47%;
+  }
+}
+
+@media all and (max-width: 1228px) {
+  .container {
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .rectangle,
+  .sqr {
+    margin-top: 50px;
+    margin-bottom: -8px;
+  }
+}
+@media all and (max-width: 1228px) and (min-width: 600px) {
+  .line {
+    height: 93em;
+  }
+}
+@media all and (max-width: 770px) {
+  .line {
+    display: none;
+  }
+  .container {
+    margin-left: 3%;
+    margin-bottom: auto;
+  }
+  .marg-top-140 {
+    margin-top: 140px;
+  }
+  .rectangle,
+  .sqr {
+    width: auto;
+  }
+  .rectangle h3,
+  h4 {
+    font-size: 15px;
+  }
+  .rectangle p {
+    font-size: 13.5px;
+  }
+}
+@media all and (max-width: 530px) {
+  .spt-nk_logo {
+    width: 180px;
+    height: 25px;
+  }
+  .search-box {
+    top: 4em;
+    margin-left: 8%;
+  }
+  .nav-bar {
+    margin-top: 68px;
+    right: 7%;
+  }
+  .rectangle,
+  .sqr {
+    width: auto;
+  }
+  .rectangle h3,
+  h4 {
+    font-size: 13px;
+  }
+  .rectangle p {
+    font-size: 12px;
+  }
+}
+@media all and (max-width: 420px) {
+  .nav-bar a {
+    font-size: small;
+  }
+  .rectangle,
+  .sqr {
+    height: auto;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+}
