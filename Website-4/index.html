@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Screen 4</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/css/all.css" />
+    <link rel="stylesheet" type="text/css" href="/css/util.css" />
+    <script type="text/javascript" src="/js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="d-flex h">
+        <a href="#"><i class="menu fas fa-bars fa-lg"></i></a>
+        <img class="sp-logo" src="/images/spotknacklogo.png" />
+        <div class="search-box">
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="btn-group">
+          <button
+            type="button"
+            class="btn shadow-none "
+            onclick="profileFunction()"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <img src="/images/gal-gadot.jpg">
+          </button>
+          <div class="dropdown-menu" id="myProfile">
+            <a class="dropdown-item" href="#">Settings</a>
+            <a class="dropdown-item" href="#">Privacy</a>
+            <a class="dropdown-item" href="#">Security</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Profile</a>
+            <a class="dropdown-item" href="#">Logout</a>
+          </div>
+        </div>
+      </div>
+    </header>
+      <div class="contain dir-col">
+        <div class="sec text-nowrap ">
+          <div>
+            <i class="fas fa-briefcase"></i
+            ><span class="menu-content">Home </span>
+            <span class="angle-down">
+              <button  type="button" onclick="homeFunction()">
+                <i class="fas fa-angle-down"></i></button
+            ></span>
+            <div class="home-menu mt-1 ma-20" id="myhome">
+              <a href="#">Home</a>
+              <a href="#">Home</a>
+              <a href="#">Home</a>
+              <a href="#">Home</a>
+            </div>
+          </div>
+          <div>
+            <i class="fas fa-briefcase"></i
+            ><span class="menu-content">Page 1</span
+            ><span class="angle-down"
+              ><button><i class="fas fa-angle-down"></i></button
+            ></span>
+          </div>
+          <div>
+            <i class="fas fa-briefcase"></i
+            ><span class="menu-content">Page 2</span
+            ><span class="angle-down"
+              ><button><i class="fas fa-angle-down"></i></button
+            ></span>
+          </div>
+          <div>
+            <i class="fas fa-briefcase"></i
+            ><span class="menu-content">Page 3</span
+            ><span class="angle-down"
+              ><button><i class="fas fa-angle-down"></i></button
+            ></span>
+          </div>
+        </div>
+        <div class=" bord-left position-relative"> 
+          <div class="container ">
+            <div class="d-flex jc  position-absolute">
+              <div class="px-2 font-size-12 text-nowrap">This Week</div>
+              <div class="px-2 font-size-12 text-nowrap opc-0-7">Last Month</div>
+              <div class="px-2 font-size-12 text-nowrap opc-0-7">Life Time</div>
+            </div>
+            <div class="pt-4 row dir-col ">
+              <div class="col rec">
+                <div class="row">
+                  <div class="col">
+                    <div class="font-size-12 font-weight-bold">
+                      Weekly Sales
+                    </div>
+                    <div class="k">2.25K</div>
+                    <div class="mt-2 sm-box bg-green">
+                      <div class="clr-green font-size-12">+24 %</div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <img
+                      class="progres"
+                      src="/images/progres1.png"
+                      alt="progres1"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col rec">
+                <div class="row">
+                  <div class="col">
+                    <div class="font-size-12 font-weight-bold">
+                      Weekly Sales
+                    </div>
+                    <div class="k">120</div>
+
+                    <div class="mt-2 sm-box bg-blue">
+                      <div class="clr-blue font-size-11">+24%</div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <img
+                      class="progres1"
+                      src="/images/progres2.png"
+                      alt="progres1"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row dir-col">
+              <div class="col rec">
+                <div class="row">
+                  <div class="col">
+                    <div class="font-size-12 font-weight-bold">
+                      Weekly Sales
+                    </div>
+                    <div class="d-flex p-1 font-size-12" ><div class="ellipse mr-1"></div><div class="text-nowrap">Brand 1</div> <div class="ml-5 text-nowrap">33 %</div></div>
+                    <div class="d-flex p-1 font-size-12"><div class="ellipse mr-1 opc-0-7"></div><div class="text-nowrap">Brand 2</div><div class="ml-5 text-nowrap">20 %</div></div>
+                    <div class="d-flex p-1 font-size-12"><div class="ellipse mr-1 opc-0-5"></div><div class="text-nowrap">Brand 3</div><div class="ml-5 text-nowrap">12 %</div></div>
+                  </div>
+                  <div class="col">
+                    <img
+                      class="progres3"
+                      src="/images/progres3.png"
+                      alt="progres3"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="col rec">
+                <div>
+                <div class="color-orange h4">Running Out of Storage Space ?</div>
+                <div class="font-size-12 ">Your Storage will be running out soon.<br> Gent more space and powerful productivity features.</div>
+                <div class="color-orange mt-3 h6 text-nowrap pb-1">Upgrade Storage ></div>
+              </div>
+              </div>
+            </div>
+            <div class="row dir-col">
+              <div class="col sqr">
+                <div class="font-size-12 font-weight-bold">
+                  Active User
+                </div>
+                <div class="mt-1">
+                  <div class="d-flex p-2"><img class="ema" src="images/emma.jpg" alt="image"><div class="font-size-12 ml-2 mt-1">Emma Watson</div></div>
+                  <div class="d-flex p-2"><img class="ema" src="images/emma.jpg" alt="image"><div class="font-size-12 ml-2 mt-1">Emma Watson</div></div>
+                  <div class="d-flex p-2"><img class="ema" src="images/emma.jpg" alt="image"><div class="font-size-12 ml-2 mt-1">Emma Watson</div></div>
+                  <div class="d-flex p-2"><img class="ema" src="images/emma.jpg" alt="image"><div class="font-size-12 ml-2 mt-1">Emma Watson</div></div>
+                  <div class="d-flex p-2"><img class="ema" src="images/emma.jpg" alt="image"><div class="font-size-12 ml-2 mt-1">Emma Watson</div></div>
+              </div>
+              </div>
+              <div class="col sqr">
+                <div class="font-size-12 font-weight-bold">
+                  Active User
+                </div>
+                <img class="progres4 mt-2" src="/images/progres4.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/all.js"></script>
+  </body>
+</html>

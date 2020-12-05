@@ -1,0 +1,32 @@
+.font-size-12 {
+  font-size: 12px;
+  font-weight: 600;
+}
+.bg-green {
+  background-color: #3ed319;
+}
+.clr-green {
+  color: #3aac1e;
+}
+.bg-blue {
+  background-color: #1fa7f4;
+}
+.clr-blue {
+  opacity: 1;
+  color: #20709e;
+}
+.font-size-11 {
+  font-size: 11px;
+}
+.ma-20 {
+  margin-bottom: -20px;
+}
+.opc-0-7 {
+  opacity: 0.7;
+}
+.opc-0-5 {
+  opacity: 0.5;
+}
+.color-orange {
+  color: #f59729;
+}
