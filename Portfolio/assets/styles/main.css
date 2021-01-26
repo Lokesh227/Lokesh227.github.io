@@ -285,6 +285,7 @@ img{
 }
 .project__link-name{
     color: var(--dark-color);
+    text-align: center;
 }
 /* ===== CONTACT =====*/
 .contact__container{
