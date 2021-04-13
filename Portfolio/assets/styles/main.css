@@ -4,7 +4,7 @@
 }
 /*====Colors===*>*/
 :root {
-    --primary-color: #00cccc; ;
+    --primary-color: #5891fc;; ;
     --white-color: #ffffff;
     --dark-color: #2A3B47;
     --text-color: #697477;
@@ -138,6 +138,8 @@ img{
     margin-bottom: var(--mb-4);
 }
 .nav-link{
+    font-weight: bold;
+    letter-spacing: 0.6px;
     color: black;
     position: relative;
     color: var(--dark-color);
@@ -146,6 +148,7 @@ img{
    font-weight: 600;
 }
 .logo{
+    font-size: 23px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -179,21 +182,21 @@ img{
 }
 .home__container{
     height: calc(100vh - var(--header-height));
-    row-gap: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .home__title{
-    margin-top: 20vh;
     font-size: var(--big-font-size);
     color: var(--white-color);
     line-height: .8;
 }
-.home__title span{
+.home__title span, .welcome span{
     text-shadow: 0 20px 25px rgba(0,0,0,.5);
 }
 .home__img{
     position: absolute;
-    right: 0;
-    bottom: 0;
+    margin-top: 150px;
     width: 295px;
 }
 
@@ -202,6 +205,19 @@ img{
     justify-items: center;
     row-gap: 2rem;
     text-align: center;
+}
+.about__img{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    width: 220px;
+    height: 230px;
+    background-color: var(--first-color);
+    border-radius: 50%;
+    overflow: hidden;
+}
+.about__img img{
+    width: 220px;
 }
 .about__subtitle{
     font-size: var(--h2-font-size);
@@ -350,6 +366,11 @@ img{
 .footer__social:hover{
     color: var(--primary-color);
 }
+@media screen and (max-width: 410px){
+  .home__title {
+      font-size: 20vw;
+  }
+}
 @media screen and (min-width: 768px){
     body{
         margin: 0;
@@ -390,8 +411,9 @@ img{
     
     .home__container{
         height: 100vh;
-        grid-template-rows: 1.7fr 1fr;
-        row-gap: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .home__img{
         width: 524px;
@@ -399,14 +421,18 @@ img{
     }
 
     .about__container{
-       max-width: 40%;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        text-align: initial;
+        padding: 4rem 0;
     }
     .about__img{
-        width: 200px;
-        height: 200px;
+        width: 260px;
+        height: 278px;
     }
     .about__img img{
-        width: 165px;
+        width: 260px;
+
     }
 
     .skills__container{
